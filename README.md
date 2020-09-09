@@ -1,7 +1,7 @@
-AC-295-Template
+AC295-Template
 ==============================
 
-AC-295
+AC295
 
 Project Organization
 ------------
