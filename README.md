@@ -5,7 +5,7 @@ AC295
 
 Project Organization
 ------------
-
+    
     ├── Makefile
     ├── README.md
     ├── models
@@ -17,11 +17,11 @@ Project Organization
     │   ├── __init__.py
     │   └── build_features.py
     ├── submissions
-    │   ├── practicum-1
-    │   ├── practicum-2
-    │   ├── practicum-3
-    │   ├── presentations
-    │   ├── project
+    │   ├── practicum1_groupname
+    │   ├── practicum2_groupname
+    │   ├── presentation1_groupname
+    │   ├── presentation2_groupname
+    │   └── project_groupname
     └── test_project.py
 
 --------
