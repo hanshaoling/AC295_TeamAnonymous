@@ -1,0 +1,41 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: task-get-image-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: task-app
+  template:
+    metadata:
+      labels:
+        app: task-app
+    spec:
+      containers:
+      - name: task-container
+        image: gcr.io/oceanic-works-289606/task:frontend # subject to change 
+        # image: task:frontend 
+        imagePullPolicy: IfNotPresent
+        env:
+        - name: DB_HOST
+          valueFrom: 
+              configMapKeyRef: 
+                  name: webappdb-configmap  
+                  key: database_host  
+        ports:
+        - containerPort: 8081
+---
+apiVersion: v1
+kind: Service
+metadata:
+    name: webapp-task-service  
+spec:
+    selector:  
+        app: task-app
+    type: LoadBalancer  #We want this exposed to the outside world
+    ports:
+      - protocol: TCP
+        port: 8081
+        targetPort: 8081
+        nodePort: 30000
