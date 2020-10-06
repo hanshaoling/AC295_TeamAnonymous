@@ -16,7 +16,7 @@ class GetImage(Resource):
         artist = request.form['artist']
         collection = request.form['collection']
         genre = request.form['genre']
-        db_url = "http://0.0.0.0:8082/GetImagebyname"
+        db_url = "http://webapp-db-service:8082/GetImagebyname"
         resp = requests.post(url=db_url,json={'image_name':image_name,'artist':artist,'collection':collection,'genre':genre})
         if resp.status_code==400:
             return resp.text
@@ -33,7 +33,7 @@ class SimilarImage(Resource):
         image = request.files['image_file']
         method = request.form['method']
         image.save('frontend_upload.jpg')
-        url = "http://0.0.0.0:8082/GetSimilarImage"
+        url = "http://webapp-db-service:8082/GetSimilarImage"
         method ={'method':method}
         files = {
             'json': (None, json.dumps(method), 'application/json'),
