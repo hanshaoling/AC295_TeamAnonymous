@@ -1,0 +1,23 @@
+{% extends 'base.html'  %}  
+{% block head  %} 
+   <title>Exercise 2 Demo</title>
+{% endblock %}
+
+{% block body  %} 
+        <h1> AC295 Practium 1 Team Anonymous  </h1>
+        Get Image by original image name: 
+        <form action="/GetImage" method="POST">
+            <input type="text" name="imagename" id="data_id" size="100"> <br><br>
+	    <input type="submit" value="Get Image"> <br><br>
+	    Or Get image by giving the following information <br><br>
+	    <label for="artist">Artist name:</label>
+	    <input type="text" id="artist" name="artist" size="40"><br><br>
+	    <label for="collection">Collection:</label>
+            <input type="text" id="collection" name="collection" size="40"><br><br>
+	    <label for="genre">Genre:</label>
+            <input type="text" id="genre" name="genre" size="20"><br><br>
+            <input type="submit" value="Get Image">
+        </form>
+        </form>
+
+{% endblock %}

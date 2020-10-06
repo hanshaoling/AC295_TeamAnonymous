@@ -1,0 +1,18 @@
+# ignore everything
+*
+# Except for those ending with slash (i.e. directories)
+!*/
+
+# And do not ignore the following file types
+!.gitignore
+!*.md
+!*.py
+!*/
+!*.ipynb
+!*.h5
+!*.json
+.ipynb_checkpoints
+!*.txt
+!*.html
+!*.jpg
+!*.csv
