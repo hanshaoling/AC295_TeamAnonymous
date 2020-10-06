@@ -42,7 +42,8 @@ The `cluster_name`, number of nodes, and zone are subject to changes.
 `$kubectl apply -f webapp_configmap.yaml`    
 `$kubectl apply -f webapp_db_deployment_k8s.yaml`    
 `$kubectl apply -f task_deployment_k8s.yaml`    
-Make sure to run these lines in the correct directory.    
+Make sure to run these lines in the correct directory.     
+Also please change the project ID in `*_k8s.yaml` files.
 
 6. Using the art search engine    
 \
@@ -50,7 +51,6 @@ Make sure to run these lines in the correct directory.
 Find the external IP from the output, for example `35.192.33.97`.   
 To use "simple query", copy the URL `35.192.33.97:8081/GetImage` and paste in a web browser.  
 To use "similarity query", copy the URL `35.192.33.97:8081/SimilarImage` and paste in a web browser.     
-Also please change the project ID in `*_k8s.yaml` files.
 
 7. Don't forget to delete your GCP clusters.   
 \
