@@ -1,0 +1,1 @@
+{"total_params": 128002218, "execution_time": 166.36074149211248, "loss": 0.9013276696205139, "accuracy": 0.47118231654167175, "learning_rate": 0.001, "epochs": 10, "optimizer": "Adam", "name": "Vqa_model_test", "id": 1605296925}
