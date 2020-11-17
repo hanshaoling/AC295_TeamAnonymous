@@ -6,7 +6,7 @@ In this practicum, we build a multimodal deep learning model to perform visual q
 
 ## List of Code Files
 
-**____.ipynb**: This notebook downloads the original data and pre-process them directly. It contains a final model, followed by model **distillation** and model **pruning**.
+**VQA_models.ipynb**: This notebook downloads the original data and pre-process them directly. It contains a final model, followed by model **distillation** and model **pruning**.
 
 **TFrecord.ipynb**: This notebook implements one of the additional feature: Convert dataset to **TFRecords**. After pre-processing both images and questions, we save the new dataset to TFRecords. Then, we load the TFRecord data and train our final model.
 
