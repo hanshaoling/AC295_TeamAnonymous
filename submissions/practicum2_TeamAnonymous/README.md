@@ -2,7 +2,7 @@
 ## Introduction
 In this practicum, we build a multimodal deep learning model to perform visual question answering tasks. Our teacher model takes advantage of transfer learning on both image and text data, and it achieves a 47% accuracy on the validation data. For additional features, we convert our dataset into TFRecords, apply distillation and pruning to compress the final model.
 
-## Video Link:
+## Video Link: https://drive.google.com/file/d/1mAJsGexhG-7dH5o3QVrWXSEH5uknhaiL/view?usp=sharing
 
 ## List of Code Files
 
