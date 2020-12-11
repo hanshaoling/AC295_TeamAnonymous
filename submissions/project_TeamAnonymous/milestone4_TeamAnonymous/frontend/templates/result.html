@@ -1,0 +1,16 @@
+{% extends 'base.html'  %}  
+{% block head  %} 
+   <title>Exercise 2 Demo</title>
+{% endblock %}
+
+{% block body  %} 
+        <h1> AC295 Practium 1 Team Anonymous  </h1>
+        <h2>Grading result: </h2>
+        <h4>Essay Prompt: </h4> {{ prompt }}<br><br>
+        <h4>Essay submitted: </h4><br>
+        {{ essay }}<br><br>
+        <b>Grade:</b> <p style="color:#ff3d36">{{ score }}</p>
+        <h4> Graded by:</h4>
+        <img src="{{ user_image }}" alt="Bert" width="200" height="200">
+
+{% endblock %}

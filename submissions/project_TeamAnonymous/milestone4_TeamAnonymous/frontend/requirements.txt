@@ -1,0 +1,11 @@
+tensorflow == 2.3.0
+json5 == 0.9.1
+Flask == 1.1.2
+Flask-RESTful == 0.3.8
+dask == 2.12.0
+pandas == 1.0.1
+numpy == 1.18.1
+Pillow == 7.0.0
+requests == 2.23.0
+tqdm == 4.36.1
+toolz == 0.10.0

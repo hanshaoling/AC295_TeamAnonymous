@@ -1,0 +1,26 @@
+{% extends 'base.html'  %}  
+{% block head  %} 
+   <title>Project</title>
+{% endblock %}
+
+{% block body  %}
+        <h1> AC295 Project Team Anonymous  </h1>
+<h3>Get essay score by pasting essay: </h3> <br>
+        <form action="/GetEssayScore" method="POST">
+	    <label for="essay">Essay Content:</label><br>
+            <textarea id="essay" name="essay" rows="15" cols="80"></textarea><br><br>
+            <label for="method">Choose a Essay Prompt:</label>
+            <select name="method" id="method">
+            <option value="Effect of Computer on people">Effect of Computer on people</option>
+            <option value="Censorship in the libraries">Censorship in the libraries</option>
+            <option value="Source dependant essay: ROUGH ROAD AHEAD: Do Not Exceed Posted Speed Limit">Source dependant essay: ROUGH ROAD AHEAD: Do Not Exceed Posted Speed Limit</option>
+            <option value="Source dependant essay: Winter Hibiscus by Minfong Ho">Source dependant essay: Winter Hibiscus by Minfong Ho</option>
+            <option value="Source dependant essay: From Home: The Blueprints of Our Lives">Source dependant essay: From Home: The Blueprints of Our Lives</option>
+            <option value="Source dependant essay: The Mooring Mast">Source dependant essay: The Mooring Mast</option>
+            <option value="Patience">Patience</option>
+            <option value="The benefits of laughter">The benefits of laughters</option>
+            </select> <br><br>
+            <input type="submit" value="Get Score">
+        </form>
+
+{% endblock %}
