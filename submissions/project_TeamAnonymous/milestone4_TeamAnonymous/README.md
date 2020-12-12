@@ -13,6 +13,10 @@ Go to frontend folder and then :
 
 Then go to backend folder :
 
+First you need to unzip the **glo_gru.zip** in the folder
+
+Then:
+
 ```docker build -t web:backend -f Docker_maindb . ```
 
 Now create a docker network:
