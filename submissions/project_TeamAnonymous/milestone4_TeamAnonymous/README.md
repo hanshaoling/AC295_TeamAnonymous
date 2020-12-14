@@ -3,6 +3,12 @@
 ## Video Link: 
 https://drive.google.com/file/d/1lRyTs9-olQEGXa_Jc0ZhwxfwyV6fw8Op/view?usp=sharing
 
+## Media Link: 
+
+## Model Training and Data pipeline:
+
+Please refer to our notebook Combined_AES_Reg_model.ipynb for detailed instruction on how we trained our model and performance comparison
+
 ## Docker setup instruction:
 
 First we build the frontend and backend images:
