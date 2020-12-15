@@ -3,7 +3,9 @@
 ## Video Link: 
 https://drive.google.com/file/d/1lRyTs9-olQEGXa_Jc0ZhwxfwyV6fw8Op/view?usp=sharing
 
-## Media Link: 
+## Medium Link: 
+
+https://duozhang-75134.medium.com/automated-essay-grading-7bc6cb8ac0b5
 
 ## Model Training and Data pipeline:
 
